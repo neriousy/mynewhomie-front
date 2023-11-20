@@ -1,0 +1,8 @@
+.main {
+  width: 100%;
+  min-height: 100%;
+  height: calc(100vh - 64px);
+  isolation: isolate;
+  display: flex;
+  align-items: flex-start;
+}

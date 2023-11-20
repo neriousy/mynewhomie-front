@@ -1,0 +1,40 @@
+.main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.toRegister {
+  font-size: 1.2em;
+
+  a {
+    color: #0000ff;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.forgotPassword {
+  margin-top: 1em;
+
+  font-size: 1.1em;
+
+  a {
+    color: #0000ff;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.height {
+  height: calc(100vh - 50px);
+}
+
+.fullWidth {
+  width: 100%;
+}

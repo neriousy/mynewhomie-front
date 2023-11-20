@@ -1,0 +1,36 @@
+.footer {
+  margin: 1rem 1rem 1rem 1rem;
+  width: 90%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px 48px;
+  gap: 16px;
+
+  height: 124px;
+
+  background: #eff0f1;
+  border-radius: 10px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  font-family: 'Roboto Mono', monospace;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  letter-spacing: 0.15px;
+
+  /* Light/Text/Secondary */
+
+  color: rgba(0, 0, 0, 0.6);
+}

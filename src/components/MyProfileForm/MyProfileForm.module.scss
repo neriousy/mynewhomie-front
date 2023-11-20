@@ -1,0 +1,47 @@
+.form {
+  display: flex;
+  flex-direction: row;
+
+  [type='submit'] {
+    font-size: 1.2em;
+    padding: 15px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid #c9c9c9;
+    background-color: rgb(77, 148, 255);
+    color: #fff;
+    text-transform: uppercase;
+    font-family: inherit;
+    width: 20%;
+
+    &:hover {
+      background-color: rgb(40, 127, 224);
+    }
+  }
+}
+
+label.label input[type='file'] {
+  position: absolute;
+  top: -1000px;
+}
+.label {
+  cursor: pointer;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin: 3.25rem 0 0 0;
+  background: #dddddd;
+  display: inline-block;
+}
+.label:hover {
+  background: #5cbd95;
+}
+.label:active {
+  background: #9fa1a0;
+}
+.label:invalid + span {
+  color: #000000;
+}
+.label:valid + span {
+  color: #ffffff;
+}

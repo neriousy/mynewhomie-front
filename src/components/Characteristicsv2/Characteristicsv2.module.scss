@@ -1,0 +1,21 @@
+.main {
+  font-family: 'Roboto', sans-serif;
+  width: 90%;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+
+  h4 {
+    margin: 1rem 0;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.25px;
+  }
+}
+
+.outline {
+  &:focus {
+    outline: 1px solid #1976d2;
+  }
+}

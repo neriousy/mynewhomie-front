@@ -1,0 +1,59 @@
+.resultContainer {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 350px;
+  .information {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .name {
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  &:hover {
+    box-shadow: 0px 0px 8px 2px rgb(0, 0, 0);
+    cursor: pointer;
+
+    .name {
+      text-decoration: underline;
+    }
+  }
+}
+
+.ListIcon-hover {
+  color: #000;
+}
+
+.redDot {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #f00;
+  background-color: #f00;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.greenDot {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #0f0;
+  background-color: #0f0;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.status {
+  padding: 1em 0 0 1em;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}

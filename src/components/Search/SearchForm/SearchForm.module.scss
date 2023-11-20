@@ -1,0 +1,36 @@
+.formContainer {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0a0a0b;
+  margin: 30px 0;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.active {
+  path {
+    fill: rgb(124, 124, 248);
+  }
+  line,
+  rect {
+    stroke: rgb(124, 124, 248);
+  }
+  outline: 1px solid #c9c9c9;
+}
+
+.switchButton {
+  border: 0;
+  margin: 3px;
+
+  &:hover {
+    cursor: pointer;
+    outline: 1px solid #000;
+  }
+}

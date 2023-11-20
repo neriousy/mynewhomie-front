@@ -1,0 +1,13 @@
+.box {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.list {
+  width: auto;
+  height: 4em;
+
+  padding: 0;
+  margin: 0;
+}
